@@ -1,0 +1,85 @@
+body{
+	background:#171a21!important;
+	color: #ffffff!important;
+	font-family: Tahoma!important;
+}
+.banner{
+	text-align: center;
+}
+.footer{
+	font-size: 12px;
+	text-align: center;
+}
+nav{
+	display: inline;
+	text-align: center;
+  background-color: #171a21;
+}
+nav ul li a:hover{
+  background-color: white;
+  color: #171a21;
+}
+nav ul {
+    list-style-type: none;
+   	margin: top bottom 0;
+    padding: 0;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+  text-decoration: none!important; 
+  color:#ffffff;
+}
+
+.container{
+	margin: 0 auto;
+	font-size: 15px;
+	width:70%;
+	/*display: block;*/
+	/*height: 100%;*/
+}
+.item{
+	background: url("images/sw.png");
+  width:400px;
+  height: 250px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+  border-style: solid;
+  padding: 5px 5px 5px 5px;
+}
+.item1{
+	background: url("images/igc.jpg");
+  width:400px;
+  height: 250px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+  border-style: solid;
+  padding: 5px 5px 5px 5px;
+  color: black!important;
+}
+.item2{
+	background: url("images/gpc.png");
+  width:400px;
+  height: 250px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+  border-style: solid;
+  padding: 5px 5px 5px 5px;
+}
+.c{
+  text-align: center;
+}
+
+.navbar .navbar-collapse {
+  text-align: center!important;
+}
+iframe, object, embed {
+    max-width: 100%;
+}
